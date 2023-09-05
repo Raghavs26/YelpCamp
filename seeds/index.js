@@ -22,7 +22,7 @@ const seedDB = async () => {
     const price = Math.floor(Math.random() * 20) + 10;
     const { city, state } = cities[randomCity];
     const camp = new Campground({
-      author: "63159ce57031e95749b19cce",
+      author: "64f750f7161d770efa3f441b", //enter any _id from user collection in mongo
       location: `${city}, ${state}`,
       title: `${random(descriptors)} ${random(places)}`,
       images: [
