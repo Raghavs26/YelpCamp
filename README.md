@@ -20,6 +20,7 @@
 
      ```plaintext
      MONGO_URI=
+     SECRET=
      CLOUDINARY_CLOUD_NAME=
      CLOUDINARY_KEY=
      CLOUDINARY_SECRET=
@@ -58,3 +59,8 @@ To run the server, use the following command:
 
 ```sh
 npm run start
+```
+
+
+## Live Project
+- You can check out the deployed project by visiting [this link](https://yelp-camp-26.onrender.com/).
